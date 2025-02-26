@@ -1,0 +1,43 @@
+* {
+    background-color: tomato;
+    color: azure;
+    /* font-size: 20px; */
+}
+div {
+    padding: 0px;
+    background-color: whitesmoke;
+    color:black;
+}
+h1{
+    background-color: #999;
+    margin-bottom: 0%;
+    /* font-size: 30px; */
+}
+a {
+    color: rgb(48, 204, 0);
+}
+
+#gen {
+    background-color: #999;
+    width: 100%;
+}
+span {
+    padding: 0px;
+    background-color: whitesmoke;
+    color:black;
+}
+input{
+    background-color: whitesmoke;
+    color: black;
+}
+label{
+    background-color: whitesmoke;
+    color: black;
+}
+button{
+    background-color: whitesmoke;
+    color: black;
+}
+.text{
+    margin: 2px;
+}

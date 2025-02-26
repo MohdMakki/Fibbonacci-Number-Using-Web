@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Fibonacci-on-web</title>
+<script defer src="script.js"></script>
+<link rel="stylesheet" href="style.css">
+<link rel="manifest" href="manifest.json">
+<link rel="shortcut icon" href="logo.png" type="image/x-icon">
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    h1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: black;
+        font-size: 50px;
+        padding: 2%;
+    }
+
+    #text, label{
+        margin: 5%;
+        font-size: 30px;
+    }
+
+    label, span{
+        font-size: 30px;
+    }
+
+    .button{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    button{
+        font-size: 30px;
+        padding: 10px;
+        background-color: red;
+        border-radius: 40px;
+        margin: 5%;
+    }
+
+    button:hover{
+        cursor: pointer;
+        box-shadow: 5px solid gray;
+    }
+
+    input {
+        padding: 5px;
+    }
+
+    #about, span{
+        font-size: 30px;
+    }
+
+    .header{
+        border-bottom: 1px solid white;
+    }
+
+    .header h1{
+        font-size: 100px;
+    }
+
+</style>
+</head>
+<body>
+    <div class="header">
+        <h1>Fibonacci Series</h1>
+    </div>
+    <div id="Input">
+        <h1>Input</h1>
+        <div class="text">
+            <label for="fnum">Write the first number:</label>
+            <input type="txt" id="fnum">
+            <label for="TextInput">Write the number of fibonacci numbers:</label>
+            <input type="text" id="TextInput" name="Write the number of fibonacci numbers:">
+        </div>
+        <div class="button">
+            <button onclick="generate()">Submit</button>
+        </div>
+    </div>
+    <!--<label for="TextInput">Write the number of fibonacci numbers:</label>
+    <input type="text" id="TextInput" name="Write the number of fibonacci numbers:">
+    <button onclick="generate()">Submit</button>
+    <button id="gen" onclick="generate()">Click to generate the Fibonacci sequence</button>-->
+    <div id="Output">
+        <h1>Output</h1>
+        <span class="text" id='fibo'>The Output will be here...</span>
+    </div>
+
+    <div id="about">
+        <h1>About Fibonacci sequence</h1>
+        <span class="text" id="text">In mathematics, the Fibonacci numbers, commonly denoted Fn, form a sequence, the Fibonacci sequence, in which each number is the sum of the two preceding ones. The sequence commonly starts from 0 and 1, although some authors start the sequence from 1 and 1 or sometimes (as did Fibonacci) from 1 and 2.</span>
+    </div>
+</body>
+</html>
